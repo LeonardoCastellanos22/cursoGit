@@ -26,4 +26,8 @@ En la carpeta que se va a subir
 
 ---> git config --global user.name "nombre" --> configuramos el nombre de usuario que se tiene en el repositorios
 
----> git config --global user.email "email" --> configuramos el email que se tiene en el repositorio
+---> git config --global user.email "email" --> configuramos el email que se tiene en el repositorios
+
+---> git log nombre_archivo ---> miramos los registros, cambios realizados sobre el archivo (head master) cambio más reciente
+
+--->git show nombre_archivo --> cambios hechos en el archivo
