@@ -17,3 +17,13 @@ En la carpeta que se va a subir
 ---> git add nombre_archivo , añade el archivo, ya luego al hacer status se puede incluir---> nos dice que hay cambios que deben ser enviados---> se manda a la memoria ram
 
 ---> git rm nombre_archivo, cambia el estado lo remueve
+
+---> git commit -m "Añadir comentario" --> se sube los archivos al repositorios, solo si están añadidos con el comando add en cache
+
+---> git config --> configuracion de git
+
+---> git config --list ---> la lista de cosas que faltan por configurar
+
+---> git config --global user.name "nombre" --> configuramos el nombre de usuario que se tiene en el repositorios
+
+---> git config --global user.email "email" --> configuramos el email que se tiene en el repositorio
