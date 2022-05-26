@@ -1,0 +1,19 @@
+Curso GIT
+
+PRIMERA CLASE
+
+GIT --> Sistema de control de versiones, para ver quien hizo los cambios el tiempo y qué hizo
+
+Creado por linux (Linus torbals)
+
+Instalar GIT en la página, tener en cuenta GIT bash
+
+En la carpeta que se va a subir
+
+---> git init, crea carpeta oculta de la base de datos (cambios atómicos) o que se van a cambiar automáticamente
+
+---> git status, se va  aver el estado del proyecto, busca el contenido de la carpeta
+
+---> git add nombre_archivo , añade el archivo, ya luego al hacer status se puede incluir---> nos dice que hay cambios que deben ser enviados---> se manda a la memoria ram
+
+---> git rm nombre_archivo, cambia el estado lo remueve
