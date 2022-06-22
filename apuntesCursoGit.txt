@@ -84,3 +84,33 @@ con git reset -- hard--> se borra todo sin posibilidad de recuperarlo
 git reset --soft --> borramos los archivos de staging
 
 git reset HEAD --> borramos los archivos de staging
+
+
+TRACKED AND untracked
+
+Se dice que un archivo es tracked, cuando está en staging, es decir cuando se hace git add . Porque git va a percibir los cambios con git status
+
+Si no está en staging, no serán trackeados los archivos, quedaran en untracked
+
+Enviar al repositorio (todo en staging)---> commit
+
+SERVIDOR REMOTO
+
+git clone url -->es como el git init, se clona con el link. Una copia del master y una base de datos de todos los cambios históricos
+
+git push --> se envía todo lo del repositorio al servidor REMOTO
+
+git fetch --> Se trae al repositorio local pero no lo copia a los archivos
+
+git merge --> se unen los archivos
+
+git pull --> copio el repoistorio y lo uno a este
+
+git commit -am "comentario"--> agrega al repositorio los archivos que se hayan modificado (traacked)
+
+CREAR UNA RAMA -BRANCHES
+
+git branch nombre_de_la_rama --> crea una nueva rama sobre el head
+
+git checkout nombre_de_la_rama --> nos movemos a esa rama
+
