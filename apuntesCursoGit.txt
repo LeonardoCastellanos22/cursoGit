@@ -12,9 +12,9 @@ En la carpeta que se va a subir
 
 ---> git init, crea carpeta oculta de la base de datos (cambios atómicos) o que se van a cambiar automáticamente
 
----> git status, se va  aver el estado del proyecto, busca el contenido de la carpeta
+---> git status, se va  a ver el estado del proyecto, busca el contenido de la carpeta
 
----> git add nombre_archivo , añade el archivo, ya luego al hacer status se puede incluir---> nos dice que hay cambios que deben ser enviados---> se manda a la memoria ram
+---> git add nombre_archivo , añade el archivo al repositorio, ya luego al hacer status se puede incluir---> nos dice que hay cambios que deben ser enviados---> se manda a la memoria ram
 
 ---> git rm nombre_archivo, cambia el estado lo remueve
 
@@ -30,4 +30,57 @@ En la carpeta que se va a subir
 
 ---> git log nombre_archivo ---> miramos los registros, cambios realizados sobre el archivo (head master) cambio más reciente
 
+--> git log --stat --> cambios especificos a los archivos
+
 --->git show nombre_archivo --> cambios hechos en el archivo
+
+----> git diff copiar_indicador_commit_1(version mas nueva) copiar_indicador_commit_2(version mas vieja) --> compara la diferencia en la base de datos de los dos commits generados
+
+QUE PASA CUANDO SE HACE GIT init (archivos untrack)
+
+---> Se crea un area en memoria RAM llamda staging --> cambios
+---> Se crea el repositorio .git (cambios de archivos)
+
+GIT ADD (archivo track) --> revisa si hay cambios, se va a staging
+
+El archivo pasa a la RAM (Staging) y quueda esperando para enviarlo al repositorio
+
+GIT commit (archivo track)--> en el repositorio
+
+Se envía el archivo del Staging al repositorio (al master)
+
+BRANCHES (RAMAS)
+
+Se tiene un branch llamada master y los commit se van actualizando ahí
+
+Se hacen múltiples ramas para ir verificando archivos sin cambiar el original o master
+
+Igual se hace merge entre ramas
+
+RESET
+
+    --> git reset versio_a_la_que_queremos_devolvernos -- hard --> todo vuelve al estado anterior, se borran inclusive los logs
+--> git reset versio_a_la_que_queremos_devolvernos -- soft --> lo que está en staging (RAM cuando se da add) sigue en staging
+
+CHECKOUT
+
+--> git checkout version_a_la_que_queremos_devolvernos nombre_del_archivo.xxx ---> devuelve el cambio anterior o version anterior
+
+
+DIFERENCIA  RM Y RESET
+
+git rm ---> se elimina el archivo, pero es posible recuperarlo. Solo es necesario viajar en el tiempo y acceder a este
+
+Formas de eliminar los archivos:
+
+git rm --cached :Elimina los archivos del repositorio local (área de staging) pero lo mantiene en el disco duro. Pasaran a estado untracked
+
+git rm --forced: Elimina los archivos del disco duro, es posible recuperarlos con comandos avanzados
+
+GIT RESET:
+
+con git reset -- hard--> se borra todo sin posibilidad de recuperarlo
+
+git reset --soft --> borramos los archivos de staging
+
+git reset HEAD --> borramos los archivos de staging
