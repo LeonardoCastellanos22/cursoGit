@@ -123,4 +123,6 @@ git clone url ---> Se copia el master a la carpeta, la base de datos de todos lo
 
 git pull --> copio el repositorio local y copio el directorio
 
+Las ramas van cambiando de commits, según la branch
 
+Cuando se hace merge, se elimina la rama y se mezcla en master
