@@ -126,3 +126,7 @@ git pull --> copio el repositorio local y copio el directorio
 Las ramas van cambiando de commits, según la branch
 
 Cuando se hace merge, se elimina la rama y se mezcla en master
+
+
+NOTA: Para hacer merge, tiene que hacerse desde MASTER, porque lo que se hace es traer los archivos de la cabecera a master
+Se le da final a la rama y se continua con master
