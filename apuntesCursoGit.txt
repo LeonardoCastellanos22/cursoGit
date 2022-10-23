@@ -142,3 +142,12 @@ Un merge es un commit hacia esa rama
 git remote add origin https://github.com/LeonardoCastellanos22/cursoGit.git --->  añadimos el repositorio remoto
 
 git push origin master ---> se envía el origen, el cual es la url asociada en el anterior comando
+
+Tener en cuenta lo siguiente:
+
+Al hacer push sin iniciar sesión:
+
+Username: El username de github
+password: Es el token generado en github--> ir developer console, tokens y generar uno
+
+git pull origin main --> Traemos los archivos y los enviamos
