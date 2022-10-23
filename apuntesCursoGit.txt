@@ -84,3 +84,10 @@ con git reset -- hard--> se borra todo sin posibilidad de recuperarlo
 git reset --soft --> borramos los archivos de staging
 
 git reset HEAD --> borramos los archivos de staging
+
+git show ---> donde está el head
+git log --> vemos todo
+
+git branch NOMBRE-CABECERA --> Nueva rama
+
+git checkout NOMBRE-CABECERA --> pasamos de ramas
