@@ -91,3 +91,50 @@ git log --> vemos todo
 git branch NOMBRE-CABECERA --> Nueva rama
 
 git checkout NOMBRE-CABECERA --> pasamos de ramas
+
+TRACKED AND untracked
+
+Se dice que un archivo es tracked, cuando está en staging, es decir cuando se hace git add . Porque git va a percibir los cambios con git status
+
+Si no está en staging, no serán trackeados los archivos, quedaran en untracked
+
+Enviar al repositorio (todo en staging)---> commit
+
+SERVIDOR REMOTO
+
+git clone url -->es como el git init, se clona con el link. Una copia del master y una base de datos de todos los cambios históricos
+
+git push --> se envía todo lo del repositorio al servidor REMOTO
+
+git fetch --> Se trae al repositorio local pero no lo copia a los archivos
+
+git merge --> se unen los archivos
+
+git pull --> copio el repoistorio y lo uno a este
+
+git commit -am "comentario"--> agrega al repositorio los archivos que se hayan modificado (traacked)
+
+CREAR UNA RAMA -BRANCHES
+
+git branch nombre_de_la_rama --> crea una nueva rama sobre el head
+
+git checkout nombre_de_la_rama --> nos movemos a esa rama
+
+HEAD
+
+Es el apuntador en donde haré el commit, a qué rama se apunta --> checkout, todos los archivos cambian al último commit donde apunto 
+
+
+git clone url ---> Se copia el master a la carpeta, la base de datos de todos los cambios históricos
+
+git pull --> copio el repositorio local y copio el directorio
+
+Las ramas van cambiando de commits, según la branch
+
+Cuando se hace merge, se elimina la rama y se mezcla en master
+
+
+NOTA: Para hacer merge, tiene que hacerse desde MASTER, porque lo que se hace es traer los archivos de la cabecera a master
+Se le da final a la rama y se continua con master
+
+Un merge es un commit hacia esa rama
