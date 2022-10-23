@@ -114,3 +114,13 @@ git branch nombre_de_la_rama --> crea una nueva rama sobre el head
 
 git checkout nombre_de_la_rama --> nos movemos a esa rama
 
+HEAD
+
+Es el apuntador en donde haré el commit, a qué rama se apunta --> checkout, todos los archivos cambian al último commit donde apunto 
+
+
+git clone url ---> Se copia el master a la carpeta, la base de datos de todos los cambios históricos
+
+git pull --> copio el repositorio local y copio el directorio
+
+
