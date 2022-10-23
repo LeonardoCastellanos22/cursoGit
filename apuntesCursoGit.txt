@@ -138,3 +138,7 @@ NOTA: Para hacer merge, tiene que hacerse desde MASTER, porque lo que se hace es
 Se le da final a la rama y se continua con master. El Head debe estar en el master para hacer merge
 
 Un merge es un commit hacia esa rama
+
+git remote add origin https://github.com/LeonardoCastellanos22/cursoGit.git --->  añadimos el repositorio remoto
+
+git push origin master ---> se envía el origen, el cual es la url asociada en el anterior comando
