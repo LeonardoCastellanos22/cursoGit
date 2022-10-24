@@ -151,3 +151,5 @@ Username: El username de github
 password: Es el token generado en github--> ir developer console, tokens y generar uno
 
 git pull origin main --> Traemos los archivos y los enviamos
+
+git push origin master:main --> enviar de la rama creada por default
