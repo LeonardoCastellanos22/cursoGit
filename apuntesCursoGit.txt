@@ -158,6 +158,8 @@ git remote set-url origin LINK_REPOSITORY --> Cambio url
 
 git config -l --> las credenciales de github
 
+g
+
 LLAVES PÚBLICAS Y PRIVADAS
 
 Están vinculadas matemáticamente, lo que cierro con la pública sólo lo puedo abrir con la llave PRIVADAS
@@ -215,4 +217,8 @@ TAGS O ETIQUETAS
 
   git show-branch --all --> Me muestra todos los cambios de las ramas
 
+git push origin NOMBRE-RAMA --> Enviamos la rama al repositorio
 
+AGREGAR usuario
+1. Settings del repositorio
+2. Collaborators, luego se coloca el email o el username de GitHub
