@@ -155,3 +155,40 @@ git pull origin main --> Traemos los archivos y los enviamos
 git push origin master:main --> enviar de la rama creada por default
 
 git remote set-url origin LINK_REPOSITORY --> Cambio url
+
+git config -l --> las credenciales de github
+
+LLAVES PÚBLICAS Y PRIVADAS
+
+Están vinculadas matemáticamente, lo que cierro con la pública sólo lo puedo abrir con la llave PRIVADAS
+
+Copiamos la llave pública, se cifra el mensaje con la llave pública y se genera un nuevo mensaje --> Mensaje cifrado
+
+Se cifra con la llave pública y se quita el cifrado con la llave privada
+
+Las llaves SSH no son por repositorio. Son por PERSONA
+
+Se genera clave en local (privada y pública), luego se pasa la llave pública a GitHub y GitHub a partir de esa llave crea una y se conecta al local automáticamente
+
+GENERAR SSH
+
+ssh-keygen -t rsa -b 4096 -C "edgarleonardo.castellanos@gmail.com" --> Algoritmo rsa, con complejidad 4096, genera la llave en el directorio con un passphrase determinado
+
+Se guarda en .ssh
+
+eval $(ssh-agent -s) ---> evaluando que un comando se dispare
+
+ssh-add ~/.ssh/id_rsa --> Se agrega la llave privada al remoto, se coloca el path correspondiente
+
+Llave pública por repositorio
+
+EN GITHUB:
+
+1. Ir a settings
+2. Llave SSH
+3. Añadir llave, copiar la pública del remoto y pegarla. De esta manera, se asocia dicha llave
+
+--> Luego se cambia la url del repo
+git remote set-url origin LINK_REPOSITORY --> Cambio URL por la de SSH que aparece en el repo
+
+
