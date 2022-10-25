@@ -191,4 +191,28 @@ EN GITHUB:
 --> Luego se cambia la url del repo
 git remote set-url origin LINK_REPOSITORY --> Cambio URL por la de SSH que aparece en el repo
 
+git log --all --graph --deocorate --oneline --> comprimido con todos los cambios
+
+TAGS O ETIQUETAS
+
+ alias check="git log --all --graph --decorate --oneline" --> Se guarda como check este comando
+
+  git tag -a v0.2 -m " Resultado primeras pruebas" d83dbcc ---> Se coloca tag o version al commit específico en el has, el hash es el último string y se encuentra mirando los cambios
+
+  git tag --> Se miran todos los 
+  
+  git show-ref --tags --> se miran los tags con el hash
+
+  git push origin --tags --> Se envían los tags
+
+  BORRAR TAG
+  
+  git tag -d NOMBRE-TAG --> Se borra el tag, no se borra en github, solo internamente
+
+  git push origin :refs/tags/NOMBRE-TAG --> Se borra el tag del todo
+
+  BRANCHES
+
+  git show-branch --all --> Me muestra todos los cambios de las ramas
+
 
