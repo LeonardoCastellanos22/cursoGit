@@ -222,3 +222,4 @@ git push origin NOMBRE-RAMA --> Enviamos la rama al repositorio
 AGREGAR usuario
 1. Settings del repositorio
 2. Collaborators, luego se coloca el email o el username de GitHub
+
