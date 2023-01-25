@@ -223,3 +223,13 @@ AGREGAR usuario
 1. Settings del repositorio
 2. Collaborators, luego se coloca el email o el username de GitHub
 
+STAGING developer
+Hacer pruebas en staging, se hace merge primero acá, siempre stagin y master deben estar actualizando
+
+PULL REQUEST --> Permite a personas no colaboradores trabajar y cambiar una rama
+
+Estado intermedio antes de enviar el merge
+
+Esto se prueba primero en Staging y luego se fuciona a main o master
+
+Cambio con el PR
