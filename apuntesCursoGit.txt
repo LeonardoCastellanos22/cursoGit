@@ -233,3 +233,8 @@ Estado intermedio antes de enviar el merge
 Esto se prueba primero en Staging y luego se fuciona a main o master
 
 Cambio con el PR
+
+FORK
+
+Son bifurcaciones, cuando el repo es público, cualquiera puede hacer fork, clonar el proyecto y cambiarlo
+Tiene una historia en común con el repo original o proyecto
