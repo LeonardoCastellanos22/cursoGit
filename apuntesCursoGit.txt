@@ -268,3 +268,16 @@ git stash list ----> ver los cambios guardados
 git stash pop ---> Devuelve los cambios en la rama
 
 git stash branch nombre_de_la_rama ---> Crea una rama y me guarda los cambios allá
+
+git stash drop ---> Quita el o los stash
+
+GIT CLEANN
+Borra archivos, archivos sin seguimiento
+
+git clean --dry-run
+
+git clean -f 
+
+git clean -df --> trackea carpetas
+
+gitignore inclusive ignora git clean
