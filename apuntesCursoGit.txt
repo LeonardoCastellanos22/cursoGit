@@ -249,3 +249,8 @@ upstream --> Fuente de origen, otra fuente de origen
 git pull upstream main ---> Trae los cambios del repo original
 
 README.MD ---> EDITOR.md
+
+GIT REBASE 
+
+
+Mala practica, reescribe la historia del repositorio
