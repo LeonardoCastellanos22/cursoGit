@@ -274,10 +274,13 @@ git stash drop ---> Quita el o los stash
 GIT CLEANN
 Borra archivos, archivos sin seguimiento
 
-git clean --dry-run
+git clean --dry-run--> Rastrea las imagenes
 
-git clean -f 
+
+git clean -f --> Las borra
 
 git clean -df --> trackea carpetas
 
 gitignore inclusive ignora git clean
+
+Git Cherry-pick
