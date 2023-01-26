@@ -284,3 +284,5 @@ git clean -df --> trackea carpetas
 gitignore inclusive ignora git clean
 
 Git Cherry-pick
+
+git log --oneline
