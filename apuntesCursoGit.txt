@@ -241,3 +241,9 @@ Tiene una historia en común con el repo original o proyecto
 
 
 Cambioss
+
+git remote add upstream link_del_repo --> Otra fuente de datos ademas de origin
+
+upstream --> Fuente de origen, otra fuente de origen
+
+git pull upstream main ---> Trae los cambios del repo original
