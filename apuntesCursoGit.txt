@@ -250,7 +250,21 @@ git pull upstream main ---> Trae los cambios del repo original
 
 README.MD ---> EDITOR.md
 
+Experimento 1
+Experimento 2
+
 GIT REBASE 
 
 
 Mala practica, reescribe la historia del repositorio
+git rebase nombre_de_la_rama
+
+rebase toma la rama y sobre escribe la historia para que no se den cuenta de los cambios
+
+git stash ----> vuelve al estado anterior y se guarda en un lugar temporal, guarda cambios en staging
+
+git stash list ----> ver los cambios guardados
+
+git stash pop ---> Devuelve los cambios en la rama
+
+git stash branch nombre_de_la_rama ---> Crea una rama y me guarda los cambios allá
